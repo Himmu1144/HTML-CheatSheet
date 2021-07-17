@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="copy.jpg" alt="">
+        </div>
+        <div class="heading">
+            This HTML CheatSheet is For You!
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol>
+            <li><span class="weight">HTML Boileroplate</span> 
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <li><span class="weight">HTML Form</span> 
+                <pre class="language-html"><code>&lt;form action="backend.php"&gt;
+&lt;div&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" name="mytext" id="name"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="role"&gt;Role:&lt;/label&gt;
+    &lt;input type="text" name="myrole" id="role"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" name="myemail" id="email"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="bonus"&gt;Bonus:&lt;/label&gt;
+    &lt;input type="number" name="mybonus" id="bonus"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="car"&gt;Car:&lt;/label&gt;
+    &lt;select name="Car" id="car"&gt;
+        &lt;option value="swft"&gt;Swift&lt;/option&gt;
+        &lt;option value="Ind"&gt;Indica&lt;/option&gt;
+        &lt;option value="Noni" selected&gt;Nano&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;            
+    Gender: &lt;label for="male"&gt;Male&lt;/label&gt; &lt;input type="radio" name="mygender" id="male"&gt; &lt;label
+        for="female"&gt;Female&lt;/label&gt; &lt;input type="radio" name="mygender" id="female"&gt; &lt;label
+        for="others"&gt;Others&lt;/label&gt; &lt;input type="radio" name="mygender" id="others"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="date"&gt;Date:&lt;/label&gt;
+        &lt;input type="date" name="mydate" id="date"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="eligible"&gt;Are You Eligibile ?&lt;/label&gt;
+        &lt;input type="checkbox" name="myeligibility" id="eligible" checked&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;label for="about"&gt;Write About Yourself:&lt;/label&gt;
+        &lt;br&gt;&lt;textarea name="about myself" id="about" cols="30" rows="10"&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+    &lt;input type="submit" value="Submit Now"&gt;
+    &lt;input type="reset" value="Reset Now"&gt;
+&lt;/div&gt;
+&lt;/form&gt;</code></pre>
+            
+<li><span class="weight">Video Tag</span> 
+    <pre class="language-html"><code>&lt;video width="480" height="320" controls&gt;
+    &lt;source src="demo_move.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+
+<li><span class="weight">Audio Tag</span> 
+    <pre class="language-html"><code>&lt;audio controls&gt;
+    &lt;source src="demo.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;</code></pre>
+
+<li><span class="weight">Table</span> 
+    <pre class="language-html"><code>&lt;table&gt;
+&lt;caption&gt;Demo Table&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Column1&lt;/th&gt;
+&lt;th colspan="2"&gt;Column2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data1&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data1&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;
+&lt;tr&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+        </ol>
+    </div>
+</body>
+</html>
+
